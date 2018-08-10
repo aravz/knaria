@@ -2,7 +2,9 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header.jpg');
+  //background-color: rgba(0,0,0,0.8);
+  background-image: url('../img/soluciones.jpg');
+  //filter:brightness(.5);
   background-position: center center;
   @include background-cover;
   hr {
