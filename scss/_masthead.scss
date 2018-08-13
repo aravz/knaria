@@ -3,7 +3,7 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   //background-color: rgba(0,0,0,0.8);
-  background-image: url('../img/soluciones.jpg');
+  background-image: url('../img/header8.jpg');
   //filter:brightness(.5);
   background-position: center center;
   @include background-cover;
@@ -16,6 +16,21 @@ header.masthead {
   }
   p {
     font-weight: 300;
+  }
+  //Personalizable
+  #h1-header{
+    color: $primary;
+    font-family: 'Righteous', cursive;
+  }
+  #p-header{
+    color: $primary;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'News Cycle', sans-serif;
+  }
+  #span-header{
+    color: $green;
+    font-family: 'Righteous', cursive;
   }
   @media (min-width: 768px) {
     p {

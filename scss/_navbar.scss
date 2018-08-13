@@ -7,8 +7,10 @@
   .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: $white;
-    @include sans-serif-font;
+    color: $green;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
+    //@include sans-serif-font;
     &:focus,
     &:hover {
       color: darken($primary, .1);
@@ -18,7 +20,7 @@
     > li.nav-item {
        > a.nav-link,
       > a.nav-link:focus {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-weight: 700;
         text-transform: uppercase;
         color: $gray-900;
@@ -39,7 +41,7 @@
     border-color: transparent;
     background-color: transparent;
     .navbar-brand {
-      color: fade-out($white, .3);
+      color: fade-out($green, .3);
       &:focus,
       &:hover {
         color: $white;
@@ -50,9 +52,9 @@
     }
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
-      color: fade-out($white, .3);
+      color: fade-out($primary, .3);
       &:hover {
-        color: $white;
+        color: $black;
       }
     }
     &.navbar-shrink {
