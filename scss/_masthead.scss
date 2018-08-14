@@ -19,18 +19,15 @@ header.masthead {
   }
   //Personalizable
   #h1-header{
-    color: $primary;
+    color: $green;
+    font-size: 4rem;
     font-family: 'Righteous', cursive;
   }
   #p-header{
     color: $primary;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: 'News Cycle', sans-serif;
-  }
-  #span-header{
-    color: $green;
-    font-family: 'Righteous', cursive;
   }
   @media (min-width: 768px) {
     p {

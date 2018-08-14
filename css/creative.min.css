@@ -141,16 +141,14 @@ header.masthead {
   header.masthead p {
     font-weight: 300; }
   header.masthead #h1-header {
-    color: #1d5590;
+    color: #659707;
+    font-size: 4rem;
     font-family: 'Righteous', cursive; }
   header.masthead #p-header {
     color: #1d5590;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: 'News Cycle', sans-serif; }
-  header.masthead #span-header {
-    color: #659707;
-    font-family: 'Righteous', cursive; }
   @media (min-width: 768px) {
     header.masthead p {
       font-size: 1.15rem; } }
@@ -165,6 +163,9 @@ header.masthead {
   @media (min-width: 1200px) {
     header.masthead h1 {
       font-size: 4rem; } }
+
+#services {
+  font-family: 'News Cycle', sans-serif; }
 
 .service-box {
   max-width: 400px; }
@@ -235,5 +236,40 @@ header.masthead {
     background-color: #19487b !important; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+
+#contact {
+  font-family: 'News Cycle', sans-serif;
+  color: #000;
+  font-size: 1.2rem; }
+  #contact #h1-contact {
+    font-size: 1.5rem;
+    color: #1d5590;
+    font-weight: bold;
+    font-family: 'News Cycle', sans-serif; }
+  #contact #p-contact {
+    font-size: 1rem; }
+
+#footer {
+  background: #1d5590;
+  font-family: 'News Cycle', sans-serif;
+  color: #fff;
+  padding: 1rem;
+  vertical-align: middle; }
+  #footer #h1-footer {
+    font-size: 1.5rem;
+    color: #659707;
+    font-weight: bold;
+    font-family: 'News Cycle', sans-serif; }
+  #footer #a-footer {
+    color: #fff; }
+  #footer #p-footer {
+    font-size: .9rem; }
+  #footer #btn-up {
+    color: #659707;
+    font-size: 3rem;
+    position: fixed;
+    right: 15px;
+    bottom: 2px;
+    z-index: 999999999; }
 
 /*# sourceMappingURL=creative.min.css.map */
