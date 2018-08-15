@@ -1,6 +1,18 @@
 // Styling for the services section
 #services {
-  font-family: 'News Cycle', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  //font-family: 'Imprima', sans-serif;
+  .fa {
+    color: $primary;
+  }
+  .a-services{
+    text-decoration: none;
+    &:hover {
+      .fa{
+        color: $yellow-100;
+      }      
+    }
+  }
 }
 .service-box {
   max-width: 400px;

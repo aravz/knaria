@@ -19,8 +19,8 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -29,49 +29,21 @@
     <link href="css/creative.min.css" rel="stylesheet">
 
   </head>
-
   <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logo/logo.png" alt=""></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#home">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Nuestros servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Equipo de Trabajo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
+    <?php
+      include("includes/nav.php");
+    ?>
     <header class="masthead text-center text-white d-flex" id="home">
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase" id="h1-header">
+            <h1 class="text-uppercase h1-header">
               <strong>knaria</strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5" id="p-header">Servicios TI para la optimización de los procesos de su empresa</p>
+            <p class="text-faded mb-5 p-header">Servicios TI para la optimización de los procesos de su empresa</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Más información</a>
           </div>
         </div>
@@ -82,9 +54,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">¡Tenemos lo que usted necesita!</h2>
+            <h2 class="section-heading text-white p-about">¡Tenemos lo que usted necesita!</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+            <p class="text-faded mb-4 p-about">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Acerca de nosotros</a>
           </div>
         </div>
@@ -104,44 +76,56 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fas fa-server text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Análisis de datos</h3>
-              <p class="text-muted mb-0">Big Data, Data mining...</p>
+              <a href="" class="a-services">
+                <i class="fa fa-4x fas fa-server mb-3 sr-icons"></i>
+                <h3 class="mb-3">Análisis de datos</h3>
+                <p class="text-muted mb-0">Big Data, Data mining...</p>
+              </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fas fa-chart-area text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Business Intelligence</h3>
-              <p class="text-muted mb-0">Análisis de información, generación de reportes, gráficas, dashboards</p>
+              <a href="" class="a-services">
+                <i class="fa fa-4x fas fa-chart-area mb-3 sr-icons"></i>
+                <h3 class="mb-3">Business Intelligence</h3>
+                <p class="text-muted mb-0">Análisis de información, generación de reportes, gráficas, dashboards</p>
+              </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fas fa-cogs text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Servicios TI</h3>
-              <p class="text-muted mb-0">Soporte y mantenimiento a la infraestructura tecnológica.</p>
+              <a href="" class="a-services">
+                <i class="fa fa-4x fas fa-cogs mb-3 sr-icons"></i>
+                <h3 class="mb-3">Servicios TI</h3>
+                <p class="text-muted mb-0">Soporte y mantenimiento a la infraestructura tecnológica.</p>
+              </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-laptop-code text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Desarrollo de software</h3>
-              <p class="text-muted mb-0">Desarrollo y Mantenimiento de Sistemas y/o Aplicaciones</p>
+              <a href="" class="a-services">
+                <i class="fa fa-4x fa-laptop-code mb-3 sr-icons"></i>
+                <h3 class="mb-3">Desarrollo de software</h3>
+                <p class="text-muted mb-0">Desarrollo y Mantenimiento de Sistemas y/o Aplicaciones</p>
+              </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fas fa-users text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Gestión de Outsourcing TI</h3>
-              <p class="text-muted mb-0">Administración de personal capacitado</p>
+              <a href="" class="a-services">
+                <i class="fa fa-4x fas fa-users mb-3 sr-icons"></i>
+                <h3 class="mb-3">Gestión de Outsourcing TI</h3>
+                <p class="text-muted mb-0">Administración de personal capacitado</p>
+              </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fas fa-project-diagram text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Consultoría TI</h3>
-              <p class="text-muted mb-0">Apoyo especializado para su empresa</p>
+              <a href="" class="a-services">
+                <i class="fa fa-4x fas fa-project-diagram mb-3 sr-icons"></i>
+                <h3 class="mb-3">Consultoría TI</h3>
+                <p class="text-muted mb-0">Apoyo especializado para su empresa</p>
+              </a>
             </div>
           </div>
       </div>
@@ -269,19 +253,19 @@
         <div class="row mb-3 mt-3">
           <div class="col-lg-4 col-md-6 text-center">
             <i class="fas fa-map-marker-alt fa-2x mb-3 sr-contact text-primary"></i>
-            <h1 id="h1-contact" class="text-uppercase">Dirección</h1>
+            <h1 class="text-uppercase h1-contact">Dirección</h1>
             <p id="p-contact">Cuernavaca, Morelos <br> C.P. 62577</p>
           </div>
           <div class="col-lg-4 col-md-6 text-center">
             <i class="fas fa-phone fa-2x mb-3 sr-contact text-primary"></i>
-            <h1 id="h1-contact" class="text-uppercase">Télefono</h1>
-            <p id="p-contact">Cuernavaca, Morelos - 777 333 33 33</p>   
-            <p id="p-contact">CDMX - 01 55 22 22 22 22</p>  
+            <h1 class="text-uppercase h1-contact">Télefono</h1>
+            <p class="p-contact">Cuernavaca, Morelos - 777 333 33 33</p>   
+            <p class="p-contact">CDMX - 01 55 22 22 22 22</p>  
           </div>
           <div class="col-lg-4 col-md-6 text-center">
               <i class="fas fa-at fa-2x mb-3 sr-contact text-primary"></i>
-              <h1 id="h1-contact" class="text-uppercase">Correo electrónico</h1>
-              <p id="p-contact">knaria@knaria.com</p>       
+              <h1 class="text-uppercase h1-contact">Correo electrónico</h1>
+              <p class="p-contact">knaria@knaria.com</p>       
           </div>
       </div>
       </div>
@@ -291,36 +275,36 @@
       <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 text-center">
-                <h1 id="h1-footer" class="text-uppercase">KNARIA</h1>      
+                <h1 class="text-uppercase h1-footer">KNARIA</h1>      
             </div>
             <div class="col-md-8">
                 <div class="container-fluid">
                   <div class="row">
                       <div class="col-md-4">
-                          <h1 id="h1-footer" class="text-uppercase">NOSOTROS</h1>
-                          <ul id="ul-footer">
-                            <li><a href="" id="a-footer">¿Quiénes somos?</a></li>
-                            <li><a href="" id="a-footer">Objetivo</a></li>
-                            <li><a href="" id="a-footer">Visión / Misión</a></li>
-                            <li><a href="" id="a-footer">Valores</a></li>
+                          <h1 class="text-uppercase h1-footer">NOSOTROS</h1>
+                          <ul class="ul-footer">
+                            <li><a href="" class="a-footer">¿Quiénes somos?</a></li>
+                            <li><a href="" class="a-footer">Objetivo</a></li>
+                            <li><a href="" class="a-footer">Visión / Misión</a></li>
+                            <li><a href="" class="a-footer">Valores</a></li>
                           </ul>      
                       </div>
                       <div class="col-md-4">
-                          <h1 id="h1-footer" class="text-uppercase">SERVICIOS</h1>
-                          <ul id="ul-footer">
-                            <li><a href="" id="a-footer">Análisis de datos</a></li>
-                            <li><a href="" id="a-footer">Business Intelligence</a></li>
-                            <li><a href="" id="a-footer">Servicios TI</a></li>
-                            <li><a href="" id="a-footer">Desarrollo de software</a></li>
-                            <li><a href="" id="a-footer">Gestión de Outsourcing TI</a></li>
-                            <li><a href="" id="a-footer">Consultoría TI</a></li>
+                          <h1 class="text-uppercase h1-footer">SERVICIOS</h1>
+                          <ul class="ul-footer">
+                            <li><a href="" class="a-footer">Análisis de datos</a></li>
+                            <li><a href="" class="a-footer">Business Intelligence</a></li>
+                            <li><a href="" class="a-footer">Servicios TI</a></li>
+                            <li><a href="" class="a-footer">Desarrollo de software</a></li>
+                            <li><a href="" class="a-footer">Gestión de Outsourcing TI</a></li>
+                            <li><a href="" class="a-footer">Consultoría TI</a></li>
                           </ul>      
                       </div>
                       <div class="col-md-4">
-                          <h1 id="h1-footer" class="text-uppercase">SIGUENOS</h1>
-                           <a href="" id="a-footer"><i class="fab fa-facebook-f fa-2x mb-3 sr-contact text-white"></i></a>
+                          <h1 class="text-uppercase h1-footer">SIGUENOS</h1>
+                           <a href="" class="a-footer"><i class="fab fa-facebook-f fa-2x mb-3 sr-contact text-white"></i></a>
                            <br>
-                           <a href="" id="a-footer"><i class="fab fa-twitter fa-2x mb-3 sr-contact text-white"></i></a>     
+                           <a href="" class="a-footer"><i class="fab fa-twitter fa-2x mb-3 sr-contact text-white a-footer"></i></a>     
                       </div>
                   </div>
                 </div>
@@ -328,10 +312,10 @@
         </div>
         <div class="row mt-3">
               <div class="col-lg-12 col-md-6 text-center">
-                  <p id="p-footer">Knaria © 2018. Todos los Derechos Reservados </p>
+                  <p class="p-footer">Knaria © 2018. Todos los Derechos Reservados </p>
              </div>
              <div class="col-lg-12 col-md-6 text-center">
-                <a href="#home" id="btn-up" class="btn"><i class="fas fa-chevron-circle-up"></i></a>  
+                <a href="#home" class="btn btn-up"><i class="fas fa-chevron-circle-up"></i></a>  
            </div>         
         </div>
       </div>
@@ -353,12 +337,12 @@
       $(document).ready(function(){
           $(window).scroll(function(){
               if ($(this).scrollTop() > 100) {
-                  $('#btn-up').fadeIn();
+                  $('.btn-up').fadeIn();
               } else {
-                  $('#btn-up').fadeOut();
+                  $('.btn-up').fadeOut();
               }
           });
-          $('#btn-up').click(function(){
+          $('.btn-up').click(function(){
               $("html, body").animate({ scrollTop: 0 }, 600);
               return false;
           });

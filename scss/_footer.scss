@@ -1,29 +1,27 @@
 // Styling for the footer section
 #footer{
     background: $primary;
-    font-family: 'News Cycle', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: $white;
     padding: 1rem;
-    vertical-align: middle;
-    #h1-footer{
+    .h1-footer{
         font-size: 1.5rem;
-        color: $green;
+        color: $yellow;
         font-weight: bold;
-        font-family: 'News Cycle', sans-serif;
     }
-    #a-footer{
+    .a-footer{
         color: $white;
-    }
-    #p-footer{
         font-size: .9rem;
     }
-    #btn-up{
-        color:$green;
+    .p-footer{
+        font-size: .8rem;
+    }
+    .btn-up{
+        color:$yellow;
         font-size: 3rem;
         position: fixed;
         right: 15px;
         bottom:2px;
         z-index: 999999999;
-        
     }
   }

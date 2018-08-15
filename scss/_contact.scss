@@ -1,15 +1,14 @@
 // Styling for the contact section
 #contact{
-    font-family: 'News Cycle', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: $black;
     font-size: 1.2rem;
-    #h1-contact{
+    .h1-contact{
         font-size: 1.5rem;
         color: $primary;
         font-weight: bold;
-        font-family: 'News Cycle', sans-serif;
     }
-    #p-contact{
+    .p-contact{
         font-size: 1rem;
     }
   }
