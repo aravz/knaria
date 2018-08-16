@@ -12,7 +12,7 @@ hr {
   border-color: #0a2d53; }
 
 hr.light {
-  border-color: #fff; }
+  border-color: #ff9800; }
 
 a {
   color: #0a2d53;
@@ -72,7 +72,7 @@ img::-moz-selection {
   transition: all 0.2s; }
   #mainNav .navbar-brand {
     font-weight: 700;
-    color: #ffc107;
+    color: #ff9800;
     font-family: 'Righteous', cursive;
     font-size: 1.5rem; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -139,7 +139,7 @@ header.masthead {
   header.masthead p {
     font-weight: 300; }
   header.masthead .h1-header {
-    color: #ffc107;
+    color: #ff9800;
     font-size: 6rem;
     font-family: 'Righteous', cursive; }
   header.masthead .p-header {
@@ -279,5 +279,8 @@ header.masthead {
 
 #about .p-about {
   font-family: 'Roboto', sans-serif; }
+  #about .p-about .span-header {
+    color: #ff9800;
+    font-weight: bold; }
 
 /*# sourceMappingURL=creative.min.css.map */

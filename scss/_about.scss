@@ -2,5 +2,9 @@
 #about{
     .p-about{
         font-family: 'Roboto', sans-serif;
+        .span-header{
+            color: $yellow;
+            font-weight: bold;
+          }
     }
 }
