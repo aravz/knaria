@@ -72,8 +72,7 @@ img::-moz-selection {
   transition: all 0.2s; }
   #mainNav .navbar-brand {
     font-weight: 700;
-    text-transform: uppercase;
-    color: #f0b903;
+    color: #ffc107;
     font-family: 'Righteous', cursive;
     font-size: 1.5rem; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -82,7 +81,6 @@ img::-moz-selection {
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     font-size: 1.2rem;
     font-weight: 700;
-    text-transform: uppercase;
     color: #212529; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -141,7 +139,7 @@ header.masthead {
   header.masthead p {
     font-weight: 300; }
   header.masthead .h1-header {
-    color: #659707;
+    color: #ffc107;
     font-size: 6rem;
     font-family: 'Righteous', cursive; }
   header.masthead .p-header {
@@ -149,9 +147,6 @@ header.masthead {
     font-size: 2.6rem;
     font-weight: bold;
     font-family: 'Roboto', sans-serif; }
-  header.masthead .span-header {
-    font-size: 8rem;
-    color: #f0b903; }
   @media (min-width: 768px) {
     header.masthead p {
       font-size: 1.15rem; } }
@@ -275,7 +270,7 @@ header.masthead {
   #footer .p-footer {
     font-size: .8rem; }
   #footer .btn-up {
-    color: #f0b903;
+    color: #343a40;
     font-size: 3rem;
     position: fixed;
     right: 15px;

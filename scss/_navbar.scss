@@ -6,7 +6,7 @@
   @include transition-all;
   .navbar-brand {
     font-weight: 700;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     color: $yellow;
     font-family: 'Righteous', cursive;
     font-size: 1.5rem;
@@ -22,7 +22,7 @@
       > a.nav-link:focus {
         font-size: 1.2rem;
         font-weight: 700;
-        text-transform: uppercase;
+        //text-transform: uppercase;
         color: $gray-900;
         &:hover {
           color: $primary;
