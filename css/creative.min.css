@@ -87,8 +87,9 @@ img::-moz-selection {
       color: #0a2d53; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-      color: #0a2d53 !important;
-      background-color: transparent; }
+      background: linear-gradient(to right, #b86f03 0%, #ff9800 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
         background-color: transparent; }
@@ -107,7 +108,9 @@ img::-moz-selection {
         color: rgba(10, 45, 83, 0.7); }
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-          color: #000; }
+          background: linear-gradient(to right, #b86f03 0%, #ff9800 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent; }
       #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
         background-color: #fff; }
