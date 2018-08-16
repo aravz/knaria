@@ -169,7 +169,7 @@ header.masthead {
   #services .a-services {
     text-decoration: none; }
     #services .a-services:hover .fa {
-      color: #e6b105; }
+      color: #f5980c; }
 
 .service-box {
   max-width: 400px; }
@@ -276,10 +276,12 @@ header.masthead {
     right: 15px;
     bottom: 2px;
     z-index: 999999999; }
+  #footer .fab {
+    color: #ff9800; }
 
 #about .p-about {
   font-family: 'Roboto', sans-serif; }
-  #about .p-about .span-header {
+  #about .p-about .span-knaria {
     color: #ff9800;
     font-weight: bold; }
 
