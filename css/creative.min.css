@@ -288,4 +288,13 @@ header.masthead {
     color: #ff9800;
     font-weight: bold; }
 
+.modal-title {
+  font-weight: bold; }
+
+.modal-body {
+  font-family: 'Roboto', sans-serif; }
+
+.modal-h5 {
+  font-weight: bold; }
+
 /*# sourceMappingURL=creative.min.css.map */

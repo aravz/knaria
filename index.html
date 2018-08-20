@@ -101,9 +101,9 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <a href="" class="a-services">
+              <a href="" class="a-services" data-toggle="modal" data-target="#service1">
                 <i class="fa fa-4x fas fa-server mb-3 sr-icons"></i>
-                <h3 class="mb-3">Análisis de datos</h3>
+                <h3 class="mb-3">Exploración y explotación de información</h3>
                 <p class="text-muted mb-0">Big Data, Data mining...</p>
               </a>
             </div>
@@ -112,17 +112,8 @@
             <div class="service-box mt-5 mx-auto">
               <a href="" class="a-services">
                 <i class="fa fa-4x fas fa-chart-area mb-3 sr-icons"></i>
-                <h3 class="mb-3">Business Intelligence</h3>
+                <h3 class="mb-3">Gestión y administración TI</h3>
                 <p class="text-muted mb-0">Análisis de información, generación de reportes, gráficas, dashboards</p>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <a href="" class="a-services">
-                <i class="fa fa-4x fas fa-cogs mb-3 sr-icons"></i>
-                <h3 class="mb-3">Servicios TI</h3>
-                <p class="text-muted mb-0">Soporte y mantenimiento a la infraestructura tecnológica.</p>
               </a>
             </div>
           </div>
@@ -131,6 +122,15 @@
               <a href="" class="a-services">
                 <i class="fa fa-4x fa-laptop-code mb-3 sr-icons"></i>
                 <h3 class="mb-3">Desarrollo de software</h3>
+                <p class="text-muted mb-0">Soporte y mantenimiento a la infraestructura tecnológica.</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <a href="" class="a-services">
+                <i class="fa fa-4x fas fa-users mb-3 sr-icons"></i>
+                <h3 class="mb-3">Gestión de personal</h3>
                 <p class="text-muted mb-0">Desarrollo y Mantenimiento de Sistemas y/o Aplicaciones</p>
               </a>
             </div>
@@ -139,7 +139,7 @@
             <div class="service-box mt-5 mx-auto">
               <a href="" class="a-services">
                 <i class="fa fa-4x fas fa-users mb-3 sr-icons"></i>
-                <h3 class="mb-3">Gestión de Outsourcing TI</h3>
+                <h3 class="mb-3">Consultoría</h3>
                 <p class="text-muted mb-0">Administración de personal capacitado</p>
               </a>
             </div>
@@ -148,7 +148,7 @@
             <div class="service-box mt-5 mx-auto">
               <a href="" class="a-services">
                 <i class="fa fa-4x fas fa-project-diagram mb-3 sr-icons"></i>
-                <h3 class="mb-3">Consultoría TI</h3>
+                <h3 class="mb-3">Marketing Digital</h3>
                 <p class="text-muted mb-0">Apoyo especializado para su empresa</p>
               </a>
             </div>
@@ -381,6 +381,38 @@
       </div>
     </section>
 
+<!-- Modal services -->
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="service1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Exploración y explotación de información</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          En knaria procesamos y extraemos la información que se encuentra alojada en tus repositorios de información con base a los procedimientos particulares de tu negocio, a fin de generar conocimiento nuevo que te permita realizar la toma de decisiones de una forma eficaz. Entre los servicios que te ofrecemos están:
+        </p>
+        <ul>
+          <li>Inteligencia de datos (Big Data)</li>
+          <li>Minería de datos (Data Mining)</li>
+          <li>Inteligencia de negocios (Bussines Intelligence)</li>
+          <li>Aprendizaje automatizado (Machine Learning)</li>
+          <li>Pronóstico (Forecasting)</li>
+        </ul>
+        <br>
+        <h5 class="modal-h5 text-center">¡Contáctanos y olvídate de las interminables hojas de cálculo!</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -408,7 +440,6 @@
           });
       });
   </script>
-
   </body>
 
 </html>
